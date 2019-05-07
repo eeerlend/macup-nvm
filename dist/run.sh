@@ -4,6 +4,9 @@ if [ ! -d "$HOME/.nvm" ]; then
   mkdir $HOME/.nvm
 fi
 
+export NVM_DIR=$HOME/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 # Install latest nvm version
 nvm install --lts
 
