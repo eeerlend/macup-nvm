@@ -1,0 +1,27 @@
+{
+  "name": "macup-nvm",
+  "version": "0.0.0",
+  "description": "macup module that will configure nvm on your mac",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeerlend/macup-nvm.git"
+  },
+  "keywords": [
+    "macup",
+    "macup-module"
+  ],
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  },
+  "author": "Erlend Mongstad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eeerlend/macup-nvm/issues"
+  },
+  "homepage": "https://github.com/eeerlend/macup-nvm#readme"
+}
