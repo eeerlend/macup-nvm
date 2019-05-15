@@ -1,6 +1,6 @@
 # macup-nvm
 
-A [macup](https://github.com/eeerlend/macup) module that will configure nvm on your mac.
+A [macup](https://github.com/eeerlend/macup-builder) module that will configure nvm on your mac.
 
 ## Installation
 Run the following command to add it to your repo
